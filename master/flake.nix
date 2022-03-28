@@ -11,6 +11,7 @@
   inputs.src-notetxt-master.ref   = "refs/heads/master";
   inputs.src-notetxt-master.owner = "mrshu";
   inputs.src-notetxt-master.repo  = "nim-notetxt";
+  inputs.src-notetxt-master.dir   = "";
   inputs.src-notetxt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
